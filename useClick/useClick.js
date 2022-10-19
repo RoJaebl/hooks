@@ -18,7 +18,7 @@ export const useClick = (onClick) => {
       }
     };
   }, []);
-  if (typeof onclick !== "function") {
+  if (typeof onClick !== "function") {
     return;
   }
   return ref;

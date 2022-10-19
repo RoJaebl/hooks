@@ -1,6 +1,6 @@
 {
   "name": "@roje-hooks/use-click",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Hook to update your document's click",
   "main": "useClick.js",
   "repository": {
