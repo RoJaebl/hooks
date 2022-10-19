@@ -1,0 +1,24 @@
+{
+  "name": "@roje-hooks/use-prevent-leave",
+  "version": "1.0.0",
+  "description": "React Hook to update your document's preventLeave",
+  "main": "usePreventLeave.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoJaebl/hooks.git"
+  },
+  "keywords": [
+    "react",
+    "use",
+    "prevent",
+    "leave",
+    "hook"
+  ],
+  "author": "RoJaebl <qgs0924@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoJaebl/hooks/issues"
+  },
+  "homepage": "https://github.com/RoJaebl/hooks#readme",
+  "peerDependencies": {}
+}

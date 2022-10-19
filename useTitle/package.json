@@ -1,0 +1,26 @@
+{
+  "name": "@roje-hooks/use-title",
+  "version": "1.0.3",
+  "description": "React Hook to update your document's title",
+  "main": "useTitle.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoJaebl/hooks.git"
+  },
+  "keywords": [
+    "react",
+    "use",
+    "title",
+    "hook"
+  ],
+  "author": "RoJaebl <qgs0924@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoJaebl/hooks/issues"
+  },
+  "homepage": "https://github.com/RoJaebl/hooks#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
