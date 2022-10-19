@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 export const useNetwork = (onChange) => {
   const [status, setStatus] = useState(navigator.onLine);
   const handleChange = () => {
-    if (typeof onchange === "function") {
+    if (typeof onChange === "function") {
       onchange(navigator.onLine);
     }
     setStatus(navigator.onLine);
