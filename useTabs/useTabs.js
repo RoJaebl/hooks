@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 /**
  *
@@ -6,7 +6,7 @@ import React, { useState } from "react";
  * @param {array} allTabs
  * @returns
  */
-export default useTabs = (initialTab, allTabs) => {
+export const useTabs = (initialTab, allTabs) => {
   const [currentIndex, setCurrentIndex] = useState(initialTab);
   if (!allTabs || !Array.isArray(allTabs)) {
     return;

@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 /**
  * @param {string} initialValue
  * @return {object} pops
  */
-export default useInput = (initialValue) => {
+export const useInput = (initialValue) => {
   const [value, setValue] = useState(initialValue);
   const onChange = (e) => {
     console.log(e.target);

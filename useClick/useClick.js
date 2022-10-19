@@ -1,11 +1,11 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 /**
  *
  * @param {function} onClick
  * @returns
  */
-export default useClick = (onClick) => {
+export const useClick = (onClick) => {
   const ref = useRef();
   useEffect(() => {
     const element = ref;

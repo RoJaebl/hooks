@@ -1,0 +1,23 @@
+{
+  "name": "@roje-hooks/use-comfirm",
+  "version": "1.0.0",
+  "description": "React Hook to update your document's comfirm",
+  "main": "useComfirm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoJaebl/hooks.git"
+  },
+  "keywords": [
+    "react",
+    "use",
+    "comfirm",
+    "hook"
+  ],
+  "author": "RoJaebl <qgs0924@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoJaebl/hooks/issues"
+  },
+  "homepage": "https://github.com/RoJaebl/hooks#readme",
+  "peerDependencies": {}
+}

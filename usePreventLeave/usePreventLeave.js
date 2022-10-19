@@ -2,7 +2,7 @@
  *
  * @returns
  */
-export default usePreventLeave = () => {
+export const usePreventLeave = () => {
   const listener = (e) => {
     e.preventDefault();
     e.returnValue = "";

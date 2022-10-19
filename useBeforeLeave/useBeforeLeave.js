@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 /**
  *
  * @param {function} onBefore
  * @returns
  */
-export default useBeforeLeave = (onBefore) => {
+export const useBeforeLeave = (onBefore) => {
   useEffect(() => {
     document.addEventListener("mouseleave", onBefore);
     return () => document.removeEventListener("mouseleave", onBefore);

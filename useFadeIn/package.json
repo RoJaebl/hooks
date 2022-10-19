@@ -1,0 +1,27 @@
+{
+  "name": "@roje-hooks/use-fade-in",
+  "version": "1.0.1",
+  "description": "React Hook to update your document's fadeIn",
+  "main": "useFadeIn.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoJaebl/hooks.git"
+  },
+  "keywords": [
+    "react",
+    "use",
+    "fade",
+    "in",
+    "hook"
+  ],
+  "author": "RoJaebl <qgs0924@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoJaebl/hooks/issues"
+  },
+  "homepage": "https://github.com/RoJaebl/hooks#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

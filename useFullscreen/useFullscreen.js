@@ -1,11 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 
 /**
  *
  * @param {function} callback
  * @returns
  */
-export default useFullscreen = (callback) => {
+export const useFullscreen = (callback) => {
   const element = useRef();
   const callFunc = (isFull) => {
     if (typeof callback === "function") {

@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 /**
  *
  * @param {string} initialTitle
  * @returns
  */
-export default useTitle = (initialTitle) => {
+export const useTitle = (initialTitle) => {
   const [title, setTitle] = useState(initialTitle);
   const updateTitle = () => {
     const htmlTitle = document.querySelector("title");

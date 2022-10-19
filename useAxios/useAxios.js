@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import defaultAxios from "axios";
 
 /**
@@ -7,7 +7,7 @@ import defaultAxios from "axios";
  * @param {function} axiosInstance
  * @returns
  */
-export default useAxios = (options, axiosInstance = defaultAxios) => {
+export const useAxios = (options, axiosInstance = defaultAxios) => {
   const initState = { loading: true, error: null, data: null };
   const [state, setState] = useState(initState);
   const refetch = () => setState(initState);

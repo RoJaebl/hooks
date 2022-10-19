@@ -1,12 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
-
 /**
  *
  * @param {string} title
  * @param {object} options
  * @returns
  */
-export default useNotification = (title, options) => {
+export const useNotification = (title, options) => {
   if ("Notification" in window) {
     return;
   }

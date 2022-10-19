@@ -1,0 +1,23 @@
+{
+  "name": "@roje-hooks/use-notification",
+  "version": "1.0.0",
+  "description": "React Hook to update your document's notification",
+  "main": "useNotification.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoJaebl/hooks.git"
+  },
+  "keywords": [
+    "react",
+    "use",
+    "notification",
+    "hook"
+  ],
+  "author": "RoJaebl <qgs0924@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoJaebl/hooks/issues"
+  },
+  "homepage": "https://github.com/RoJaebl/hooks#readme",
+  "peerDependencies": {}
+}

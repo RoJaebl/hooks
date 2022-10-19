@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 /**
  *
  * @param {function} onHover
  * @returns
  */
-export default useHover = (onHover) => {
+export const useHover = (onHover) => {
   const ref = useRef();
   useEffect(() => {
     const element = ref;

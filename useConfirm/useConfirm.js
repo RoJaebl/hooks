@@ -5,7 +5,7 @@
  * @param {function} rejection
  * @returns
  */
-export default useConfirm = (message = "", callback, rejection) => {
+export const useConfirm = (message = "", callback, rejection) => {
   if (typeof callback !== "function" || typeof rejection !== "function") {
     return;
   }

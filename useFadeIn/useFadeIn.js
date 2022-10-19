@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 /**
  *
@@ -6,7 +6,7 @@ import React, { useEffect, useRef } from "react";
  * @param {number} delay
  * @returns
  */
-export default useFadeIn = (duration = 1, delay = 0) => {
+export const useFadeIn = (duration = 1, delay = 0) => {
   const element = useRef();
   useEffect(() => {
     if (element.current) {

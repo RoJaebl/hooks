@@ -1,10 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 /**
  *
  * @returns
  */
-export default useScroll = () => {
+export const useScroll = () => {
   const [state, setState] = useState({
     x: 0,
     y: 0,
